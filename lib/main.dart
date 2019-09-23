@@ -73,9 +73,9 @@ class _MyAppState extends State<MyApp> {
       title: 'Properties',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blueGrey,
+        primarySwatch: Colors.teal,
         accentColor: Colors.tealAccent,
-        canvasColor: Color.fromRGBO(255, 254, 229, 1),
+        canvasColor: Colors.blueGrey,
            fontFamily: 'Raleway',
         textTheme: ThemeData.light().textTheme.copyWith(
             body1: TextStyle(
